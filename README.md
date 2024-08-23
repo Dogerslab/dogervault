@@ -1,25 +1,46 @@
-Hello! Dogervault is a password manager origram which can save, load or edit your passwords offline over a usb!
--------------------------------------------------------------------------------------------------------------
-Dogervault stores your passwords by first creating a key# Dogervault
+Dogervault (Local Password manager)
+This is a secure password manager application designed to help you store and manage your passwords locally on your device. It uses strong encryption to protect your data and offers features to simplify password management.
 
-Dogervault is a password management application designed to securely store and manage your passwords. It allows you to add, edit, and delete password entries and provides a password generator and strength checker.
+Important Note: This application stores your passwords locally. While secure, it reinforces the importance of strong device security practices.
+Note 2: To use on a different drive (Current is F:/passwords) you must edit the dogervault.py code
 
-## Features
+Features:
 
-- **Password Management**: Add, edit, and delete entries with encrypted storage.
-- **Password Generation**: Generate strong random passwords.
-- **Password Strength Checker**: Evaluate the strength of your passwords.
-- **Encryption**: Uses symmetric encryption to protect your data.
+Secure Entry Management: Add, edit, and delete passwords with ease.
+Password Strength Indicator: Generate strong, secure passwords and receive feedback on their strength.
+User-friendly Interface: Easily manage your passwords through a straightforward interface.
+Installation (Prerequisites):
 
-## Setup
-Install 
+Python 3 (Download from https://www.python.org/downloads/)
+tkinter library (included with most Python installations)
+Instructions:
 
-Feedback
-For any feedback or inquiries, please contact me on Discord.
+Clone this repository:
+Bash
+git clone https://Dogerslab/dogervault.git
+Use code with caution.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Navigate to the project directory:
+Bash
+cd Passwords (or whatever directory it's in)
+Use code with caution.
 
-markd
+Run the application:
+Bash
+python generate_key.py
+#This will generate a key to secure your passwords
+python dogervault.py
+Use code with caution.
 
-Feel free to ask if you need more modifications or assistance!
+Usage:
+
+Login: Enter your master password to access your password manager.
+Add, Edit, and Delete: Use the provided interface to add, edit, and delete passwords.
+Password Generation: Generate secure, random passwords using the built-in password generator.
+Security Considerations:
+
+Device Security: Implement strong device security practices like firewalls and antivirus software.
+Regular Updates: Keep Python and its libraries updated to benefit from security patches.
+Contributing:
+
+We welcome contributions to this project! Feel free to fork the repository and submit pull requests with improvements or new features.
